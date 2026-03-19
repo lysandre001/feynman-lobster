@@ -7,6 +7,7 @@
 
 详细介绍：https://gamma.app/docs/-jzk412qh98bo1rn
 clawhub地址：https://clawhub.ai/lysandre001/feynman-lobster
+<img width="1024" height="1024" alt="费曼虾" src="https://github.com/user-attachments/assets/34e39b87-5bca-4ac0-aff9-f57387c6ab98" />
 
 ---
 
@@ -22,7 +23,7 @@ clawhub地址：https://clawhub.ai/lysandre001/feynman-lobster
 - 以项目为中心签约（做什么、为了什么、多久、代码/笔记路径）
 - 读取你的真实上下文（只读），按需解释和追问
 - 用费曼法验证掌握（不是背定义）
-- 通过 A2A 邀请“监工龙虾”，把承诺变成社会约束(待定)
+- 通过 A2A 邀请“监工龙虾”，把承诺变成社会约束(进行中)
 
 ---
 
@@ -30,31 +31,21 @@ clawhub地址：https://clawhub.ai/lysandre001/feynman-lobster
 
 ### 1) 签约开始
 
-用户说：“我在做一个 ML 项目，项目在 `~/projects/ml-train`，笔记在 `~/obsidian/翻译本.md`。”
-
 费曼虾会：
 - 收集契约要素（项目、动机、截止时间、资源路径）
 - 拆解当前项目所需知识背景（概念型 + 工具型）
 - 用户确认后写入契约并开始追踪
-
-### 2) 用户主动提问
-
-用户问：“`optimizer.zero_grad()` 是干什么的？”
-
-费曼虾不会直接灌答案，而会基于项目上下文反问引导：
-- 如果不调会怎样？
-- 梯度会怎样累积？
-- 在你的训练循环里它应该放哪？
-
-### 3) 龙虾主动追问（心跳）
+- 契约可通过本地面板查看（具体打开方式见下文）
+<img width="1331" height="724" alt="image" src="https://github.com/user-attachments/assets/da8f4e89-6f83-4708-98bb-361f55d97a5f" />
+### 2) 龙虾主动追问（心跳）
 
 心跳时，费曼虾会读取项目/笔记变化，找到“你正在使用但可能没完全理解”的点，主动提问验证理解。
 
-### 4) 动态增减条款
+### 3) 动态增减条款
 
 若发现前置知识缺失（如会用梯度但不懂偏导），会把前置条款插入契约；若发现新技术点（如 `model.eval()`），会追加条款并标记来源原因。
 
-### 5) 外部监工（待定）
+### 4) 外部监工（待定）
 
 你可通过 A2A 邀请其他人的龙虾当监工。监工只看进度摘要，不看私密对话内容。
 
@@ -165,7 +156,7 @@ bash ~/.openclaw/skills/feynman-lobster/scripts/setup.sh
 ### Web 面板
 
 面板地址：`http://localhost:19380`
-<img width="1331" height="724" alt="image" src="https://github.com/user-attachments/assets/da8f4e89-6f83-4708-98bb-361f55d97a5f" />
+
 
 **推荐启动（任意目录可执行）**
 
