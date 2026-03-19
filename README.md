@@ -5,6 +5,8 @@
 **形态：** OpenClaw Skill + Web 面板  
 **定位：** 项目驱动学习，不做脱离上下文的“课程助手”
 
+详细介绍：https://gamma.app/docs/-jzk412qh98bo1rn
+
 ---
 
 ## 项目愿景
@@ -162,6 +164,7 @@ bash ~/.openclaw/skills/feynman-lobster/scripts/setup.sh
 ### Web 面板
 
 面板地址：`http://localhost:19380`
+<img width="1331" height="724" alt="image" src="https://github.com/user-attachments/assets/da8f4e89-6f83-4708-98bb-361f55d97a5f" />
 
 **推荐启动（任意目录可执行）**
 
