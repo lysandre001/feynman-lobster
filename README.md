@@ -177,17 +177,6 @@ bash skills/feynman-lobster/scripts/start-panel.sh
 
 ---
 
-## 面板数据策略（重要）
-
-费曼虾面板只接受真实数据：
-
-- 正常：Gateway 提供 `GET /api/feynman/contracts`，显示真实契约
-- 异常：接口不可达或不存在，面板明确报错
-
-**原则：宁可报错，不显示 mock 假数据。**
-
----
-
 ## 快速排错
 
 - 面板打不开：确认 `start-panel.sh` 是否运行成功
